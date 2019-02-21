@@ -1,0 +1,96 @@
+/* BASICS */
+
+body{
+background:#ffcdf3;
+}
+
+/* TEXT */
+
+html{
+/** font-size: 12pt;
+letter-spacing: 2px; **/
+}
+
+/*** a{
+-moz-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
+-webkit-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
+-ms-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
+transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
+border-bottom: dotted 1px rgba(51, 51, 51, 0.5);
+color: inherit;
+} ***/
+
+body, input, select, textarea {
+color: #333333;
+font-family: "Josefin Sans", sans-serif;
+font-weight: 300;
+line-height: 1.65;
+font-size: 12pt;
+letter-spacing: 2px;
+}
+
+p{
+margin: 10px;    
+}
+
+h1, h2, h3, h4, h5{
+margin: 10px;
+}
+
+.fab{
+font-size:400%;    
+}
+
+#nav-item, a{
+font-size:18px;    
+text-transform: uppercase;    
+}
+
+/* ELEMENTS */
+
+#landing{
+height: 100vh;
+}
+
+#header{
+background-color: #532e8b;
+color: white;
+height: 50%;
+/*padding: 30px;*/
+}
+
+#navigation{
+background-color: #333333;
+color: white;
+font-size: 11px;
+letter-spacing: 2px;
+/***text-transform: uppercase;***/
+}
+
+#welcome{
+padding: 10px;
+}
+
+#divider{
+background-color: #532e8b;            
+color: white;
+/*padding-top: 40px;
+padding-bottom: 40px; */
+height: 200px;
+}
+
+#footer{
+background-color: #333333;            
+color: white;
+/* padding-top: 60px;
+padding-bottom: 60px; */
+height: 200px;
+}
+
+
+/*** start of Eric's CSS ***/
+/***
+.signature{
+    font-family: 'Josefin Sans', sans-serif;
+}***/
+
