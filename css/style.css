@@ -3,7 +3,15 @@
 /* BASICS */
 
 body{
-background:#ffcdf3;
+background-color:#ffcdf3;
+background-image: url("bg.jpg");
+background-repeat: no-repeat;
+background-position: center;
+-ms-background-size: cover;
+-o-background-size: cover;
+-moz-background-size: cover;
+-webkit-background-size: cover;
+background-size: cover;
 }
 
 /* TEXT */
@@ -13,7 +21,6 @@ color: #333333;
 font-family: "Josefin Sans", sans-serif;
 font-weight: 300;
 line-height: 1.65;
-font-size: 12pt;
 letter-spacing: 2px;
 }
 
@@ -48,12 +55,18 @@ text-transform: uppercase;
     letter-spacing: 2px;
 }
 
+.social-link{
+	margin-right: 15px;
+	font-size: .75rem;
+}
+
 /* ELEMENTS */
 
 #footer{
 background-color: #333333;            
 color: white;
 margin-top: 40px;
+padding-top: 40px;
 height: 100%;
 text-transform: uppercase;
 font-size: 10px;
@@ -62,3 +75,5 @@ font-size: 10px;
 #sitecontent{
 	margin-bottom:150px;
 }
+
+
